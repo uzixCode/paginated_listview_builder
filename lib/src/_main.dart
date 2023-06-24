@@ -5,8 +5,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:paginated_listview_builder/src/cubit/_paginated_controller.dart';
 
 // ignore: must_be_immutable
-class GitsPaginatedListViewBuilder<T> extends StatelessWidget {
-  GitsPaginatedListViewBuilder(
+class PaginatedListViewBuilder<T> extends StatelessWidget {
+  PaginatedListViewBuilder(
       {super.key,
       required this.controller,
       required this.itemBuilder,

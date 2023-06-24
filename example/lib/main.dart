@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
               paginatedController.reset();
               getNewData();
             },
-            child: GitsPaginatedListViewBuilder<int>(
+            child: PaginatedListViewBuilder<int>(
               threshold: 80,
               controller: paginatedController,
               isLoading: isLoading,
