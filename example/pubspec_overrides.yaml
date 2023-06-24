@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: paginated_listview_builder
+dependency_overrides:
+  paginated_listview_builder:
+    path: ..
